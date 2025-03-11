@@ -17,3 +17,4 @@ One more simple test application
 
 - Start app `npm run dev`
 - The server will be available in `http://localhost:5173`
+
