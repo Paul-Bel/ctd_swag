@@ -1,4 +1,4 @@
-function TodoList(){
+function TodoList() {
 
     const todos = [
         {id: 1, title: "review resources"},
@@ -6,9 +6,11 @@ function TodoList(){
         {id: 3, title: "code out app"},
     ]
 
-    return <>
-        {todos.map(todo => <li key={todo.id}>{todo.title}</li>)}
-    </>
+    return (
+        <ul>
+            {todos.map(todo => <li key={todo.id}>{todo.title}</li>)}
+        </ul>
+    )
 }
 
 export default TodoList
